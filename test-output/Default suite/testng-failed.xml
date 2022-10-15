@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Registeruserdetails">
+        <methods>
+          <include name="registeruser"/>
+          <include name="LoginApplication"/>
+          <include name="lunchbrowser"/>
+          <include name="LogoutApplication"/>
+          <include name="closebrowser"/>
+          <include name="opendatabase"/>
+          <include name="closedatabase"/>
+        </methods>
+      </class> <!-- Registeruserdetails -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
